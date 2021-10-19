@@ -1,0 +1,132 @@
+﻿@{
+    ViewBag.Title = "Addsurvey";
+}
+
+<h2>Create Question</h2>
+
+
+<form name="ProForm">
+
+
+    <div class="form-group">
+        <label>Question :</label>
+
+        <input type="text" id="Text" class="form-control" />
+
+    </div>
+
+    <div>
+        @Html.ActionLink("Create", "Manage")
+    </div>
+
+</form>
+
+
+
+
+@*
+    <!doctype html>
+        <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <title>show Questions</title>
+
+
+                <script type="text/javascript">
+                    $("#btnadd").click(function () {
+                        $("body").show();
+
+                    });
+                </script>
+
+
+
+        </head>
+
+            <div>
+
+                <input id="btnadd" type="button" value="Add" onclick="Addquestion()" name="ID" />
+
+
+                <body>
+
+                <div id="users" style="display: none">
+                    <div>
+                        First Name:
+                        <input type="text" id="FirstName" />
+                    </div><br />
+                    <div>
+                        Last Name:
+                        <input type="text" id="LastName" />
+                    </div><br />
+                    <div>
+                        Username:
+                        <input type="text" id="UserName" />
+                    </div><br />
+                    <div>
+                        Password:
+                        <input type="password" id="Password" />
+                    </div><br />
+                    <div>
+                        Role:
+                        <input type="checkbox" id="Role">Beginner
+                        <input type="checkbox" id="Role"> Advanced
+                        <input type="checkbox" id="Role"> Expert
+                    </div>
+
+
+
+
+
+                </div>
+
+                    </body>
+            </div>
+            </html>*@
+
+
+@*
+
+
+        <div id="example" style="border: 1px solid rgb(204, 204, 204); margin: 5px 0pt; padding: 5px;">Question :</div>
+        <form>
+            <div><textarea class="example-default-value" id="example-textarea" style="width: 400px; height: 50px;"></textarea></div>
+            <div><input type="button" value="Add" onclick="example_append()" /></div>
+
+        </form>
+
+        <div id="example1" style="border: 1px solid rgb(204, 204, 204); margin: 5px 0pt; padding: 5px;">Question Type:</div>
+        <form>
+            <div>
+                <input class="dropdown" id="example-textarea1"></input>
+            </div>
+            <div><input type="button" value="Add" onclick="example_append1()" /></div>
+
+        </form>
+        <script language="javascript">
+            $('.example-default-value').each(function () {
+                var default_value = this.value;
+                $(this).focus(function () {
+                    if (this.value == default_value) {
+                        this.value = '';
+                    }
+                });
+                $(this).blur(function () {
+                    if (this.value == '') {
+                        this.value = default_value;
+                    }
+                });
+            });
+            function example_append() {
+                $('#example').append($('#example-textarea').val());
+            }
+            function example_append1() {
+                $('#example1').append($('#example-textarea1').val());
+            }
+        </script>
+    </head>
+    </html>*@
+
+
+
+
